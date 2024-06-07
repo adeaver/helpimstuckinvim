@@ -11,6 +11,7 @@
         body {
             display: flex;
             justify-content: center;
+            flex-direction: column;
             align-items: center;
             height: 100vh;
             margin: 0;
@@ -18,10 +19,17 @@
             position: relative;
 			font-family: Verdana, sans-serif;
         }
+
         .centered-div {
             font-size: 5em;
             color: black;
         }
+
+        .centered-div-subtitle {
+            font-size: 1em;
+            color: black;
+        }
+
         .bottom-left-div {
             position: absolute;
             bottom: 10px;
@@ -33,6 +41,7 @@
 </head>
 <body>
     <div class="centered-div">:wq</div>
+    <div class="centered-div-subtitle">(press escape first)</div>
     <div class="bottom-left-div">
         Made with ❤️  by <a href="https://github.com/adeaver" target="_blank">@adeaver</a>
     </div>
